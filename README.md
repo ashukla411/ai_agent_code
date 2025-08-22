@@ -3,21 +3,20 @@
 This project is specifically for practice purpose, breakdown, debugging and learning of how AI Workflows and AI Agents can be build on open source tools. (Please ignore code quality)
 
 ## Ollama Setup and Llama 3.2 Model
+### Steps
 
-This document provides instructions for setting up and running Ollama with the Llama 3.2 model.
-
-## Steps
+This provides instructions for setting up and running Ollama with the Llama 3.2 model.
 
 1. **Install Ollama**: If Ollama is not already installed, follow the instructions at [Ollama Download](https://ollama.com/download).
 2. **Pull the Llama 3.2 Model**: Use the command `ollama pull llama3:2` to pull the model from the Ollama repository.
 3. **Run the Model**: Execute `ollama run llama3:2` to start the Ollama server and load the Llama 3.2 model for inference.
 
-## Prerequisites
+### Prerequisites
 
 - Ensure Docker is installed (if using the Docker version of Ollama).
 - Sufficient system resources to run Llama 3.2.
 
-## Usage
+### Usage
 
 1. **Install Ollama**: Follow instructions at [Ollama Download](https://ollama.com/download).
 2. **Pull the Llama 3.2 Model**: `ollama pull llama3:2`
